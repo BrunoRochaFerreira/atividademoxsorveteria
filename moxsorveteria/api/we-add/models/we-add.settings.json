@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "we_adds",
+  "info": {
+    "name": "We add"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Acrescimos": {
+      "type": "string"
+    }
+  }
+}

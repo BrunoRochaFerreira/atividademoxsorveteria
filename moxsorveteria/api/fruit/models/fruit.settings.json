@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fruits",
+  "info": {
+    "name": "Fruit"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Frutas": {
+      "type": "string"
+    }
+  }
+}

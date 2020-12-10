@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "deliiveries",
+  "info": {
+    "name": "Deliivery",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true,
+      "maxLength": 100
+    },
+    "Endereco": {
+      "type": "string",
+      "required": true
+    },
+    "Cartao": {
+      "type": "boolean",
+      "default": true
+    },
+    "Dinheiro": {
+      "type": "boolean",
+      "default": true
+    },
+    "Telefone": {
+      "type": "string",
+      "required": true,
+      "maxLength": 14
+    }
+  }
+}
